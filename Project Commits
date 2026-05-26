@@ -1,0 +1,25 @@
+feat: initialize portfolio website layout
+
+- Followed portfolio instructions to establish overall site structure
+- Set up core JSX files and base components
+- Installed Vite and configured development environment
+- Connected main application entry point to render homepage content
+
+feat: implement routing and page structure
+
+- Updated Main.jsx to include and render all component pages
+- Configured navigation between JSX files to enable multi-page behavior
+- Ensured each component correctly maps to its respective route/page
+
+feat: finalize website content and presentation
+
+- Added descriptive content across all JSX pages
+- Integrated images alongside page descriptions
+- Organized assets within src directory for better project structure
+- Improved layout styling using app.css for consistent UI presentation
+
+chore: polish, debugging, and code cleanup
+
+- Fixed multiple syntax and runtime errors across components
+- Refactored code structure for improved readability and maintainability
+- Added inline comments to JSX files explaining logic and component behavior
