@@ -2,13 +2,14 @@ import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 
 // Import all page components
-import Home from './components/Home'
+import Home from './Components/Home'
 import About from './src/about'
 import Contact from './src/contact'
 import Education from './src/education'
 import Project from './src/project'
 import Counter from './src/counter'
-import Layout from './components/Layout'
+import Layout from './Components/Layout'
+import Service from './src/services'
 
 // Main routing component that controls page navigation
 const MainRouter = () => {
@@ -32,6 +33,8 @@ const MainRouter = () => {
 
         {/* Projects page route */}
         <Route exact path="/project" element={<Project />} />
+
+        <Route exact path="/services" element={<Service />} />
 
         {/* Contact page route */}
         <Route exact path="/contact" element={<Contact />} />
