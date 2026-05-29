@@ -18,7 +18,8 @@ import { Link } from 'react-router-dom';
 
  <Link to="/">Home</Link> | <Link to="/about">About</Link> | <Link
 to="/education">Education</Link>| <Link to="/project">Project</Link>| <Link
-to="/contact">Contact</Link> | <Link to="/counter">Counter</Link>
+to="/contact">Contact</Link> | <Link to="/counter">Counter</Link> | 
+ <Link to="/services">Service</Link>
 
  </nav>
 
